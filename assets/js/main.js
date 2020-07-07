@@ -51,7 +51,7 @@
 
 				// Apply img as background.
 					$this
-						.css('background-image', 'url("' + $img.attr('src') + '")')
+						// .css('background-image', 'url("' + $img.attr('src') + '")')
 						.css('background-position', $this.data('position'))
 						.css('background-size', 'cover')
 						.css('background-repeat', 'no-repeat');
